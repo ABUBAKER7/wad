@@ -1,12 +1,37 @@
+<<<<<<< HEAD
 #main
 {
     max-width: 265px;
     margin: auto;
     margin-top: 40px;
+=======
+#main{
+    margin: 50px auto;
+    max-width: 350px;
+>>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
 }
+
+
 .pet {
+<<<<<<< HEAD
     border: 2px dotted #fa7590;
     box-shadow: 7px 5px 6px 3px #bb7d7d;
     border-radius: 13px;
     cursor: pointer;
+=======
+    box-shadow: 7px 7px #525c65;
+    border: 3px dashed red;
+    border-radius: 12px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+.content>p{
+    display: inline;
+}
+.content{
+    margin-top: 10px;
+>>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
 }
