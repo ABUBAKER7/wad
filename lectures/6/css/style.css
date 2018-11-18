@@ -20,29 +20,14 @@ a {
     padding: 10px 12px;
     background-color: white;
 
-=======
-}
-#main{
-    width:800px;
-    margin:auto;
-}
-.article{
-    border:1px solid #e8e8e8 ;
-    border-radius:12px;
-    width:auto;
-    margin : 0 0 10px 0;
-    padding:10px 12px;
-    background-color: #ffffff;
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
+
 }
 .article-name h1
 {
     font-size: 24px;
-<<<<<<< HEAD
+
     font-family: 'Bangers', cursive;
-=======
-    font-family: 'Bangers','cursive';
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
+
     letter-spacing: 3px;
     margin-bottom: 0;
 }
@@ -60,8 +45,6 @@ a {
 {
     color: red;
 }
-<<<<<<< HEAD
-
 .article-overview
 {
     font-size: 75%;
@@ -69,13 +52,7 @@ a {
 .article-overview a
 {
   text-decoration: none;
-=======
-.article-overview{
-    font-size: 75%;
-}
-.article-overview a{
-    text-decoration: none;
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
+
 }
 .article-overview a:hover
 {
@@ -98,13 +75,11 @@ a {
     width: 100%;
     margin-top: 30px;
 }
-<<<<<<< HEAD
+
 
 .lister-list > .lister-item
 {
-=======
-.lister-list> .lister-item{
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
+
     background-color: #f6f6f5;
     margin-bottom: 3px;
     padding: 10px 10px 20px;
@@ -112,7 +87,7 @@ a {
 .lister-list> .lister-item> .lister-item-image{
     display: inline-block;
 }
-<<<<<<< HEAD
+
 .lister-list > .lister-item > .lister-item-image img {
     box-shadow: 3px 2px 3px 1px rgpa(0,0,0,0,5);
     height: 200px;
@@ -126,27 +101,14 @@ a {
 .lister-list > .lister-item > .lister-item-content > h3
 {
     margin: 0 0 0 0.5em;
-=======
 
-.lister-list> .lister-item> .lister-item-image img {
-    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.5);
-    height: 200px;
-    width: 120px;
-}
-.lister-list> .lister-item> .lister-item-content{
-    width: 80%;
-    float: right;
-}
-.lister-list> .lister-item> .lister-item-content h3{
-    margin: 0 0 0.5em;
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
     padding: 0;
 }
 .lister-list> .lister-item> .lister-item-content h3>a{
     color: #70579D;
     text-decoration: none;
     text-transform: uppercase;
-<<<<<<< HEAD
+
     font-family: 'Bangers', cursive;
     letter-spacing: 3px;
 }
@@ -171,28 +133,7 @@ p.lister-item-summary::selection
     background: red;
 }
 .lister-list > .lister-item > .lister-item-content > a{
-=======
-    font-family: 'Bangers', 'cursive', 'halvetica';
-    letter-spacing: 3px;
-}
-.lister-list> .lister-item> .lister-item-content h3> .lister-item-year{
-    font-size: small;
-    font-weight: normal;
-}
-.lister-list> .lister-item> .lister-item-content> .lister-item-summary{
-    line-height: 140%;
-    font-size: 13px;
-}
-.lister-list> .lister-item> .lister-item-content> .lister-item-summary::first-letter{
-    color: #70579D;
-    font-size: 1.3em;
-}
-.p.lister-item-summary::selection{
-    color: yellow;
-    background: red;
-}
-.lister-list>.lister-item> .lister-item-content a{
->>>>>>> 9174253cb15d5ab7eaba6a0d31adad0884d7b7b0
+
     text-decoration: none;
     color: #70579D;
 }
