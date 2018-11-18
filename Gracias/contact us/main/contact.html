@@ -1,15 +1,16 @@
 
 <!DOCTYPE html>
 <html>
-<title>Web Page Design</title>
+<title>Contact us</title>
 
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">-->
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Old+Standard+TT">
 
-   <!-- <style>
+  <!--  <style>
         * {
             font-family: 'Old Standard TT', serif;
         }
@@ -18,13 +19,15 @@
 </head>
 <body>
 
-<div class="container">
-    <h1 class="text-center my-4"><!--<span class="d-none d-sm-inline"> -->CONTACT US </h1>
-<form>
-    <div class="row">
-        <div class="col-sm-4">
 
-    <h4>FOLLOW US</h4>
+<div class="container">
+    <h1 class="text-center my-4">CONTACT US </h1>
+<form>
+    <div class="row" style="margin-top: 45px">
+        <div class="col-sm-6">
+
+            <div>
+            <h4>FOLLOW US</h4>
     <i class="fab fa-facebook-square"></i>
     &nbsp;
     <i class="fab fa-twitter"></i>
@@ -32,41 +35,57 @@
     <i class="fas fa-envelope"></i>
     &nbsp;
     <i class="fab fa-google-plus-g"></i>
-
+            </div>
+            <br>
+            <div>
     <h4> ADRESS</h4>
     <H6><i class="fas fa-map-marker-alt"></i> 1-Khayaban-e-Jinnah،Road<br>، Johar Town,Lahore,Punjab</H6>
-
+            </div>
+            <br>
+            <div>
     <h4>  CONTACT US</h4>
     <h6><i class="fas fa-phone-square"></i> +923355969393</h6>
     <h6><i class="fas fa-envelope"></i> info@example.com</h6>
-
+            </div>
+            <br>
+<div>
     <h4>OPEN HOURS</h4>
     <h6>8:00 AM TO 5:00 PM</h6>
 </div>
+        </div>
 
-        <div class="col-sm-4">
+        <!--<div class="row justify-content-end">-->
+
+        <div class="col-sm-6">
+            <div>
     <h3>GET IN TOUCH</h3>
-    <h6>Please complete and submit this form.<br> We will reply you as soon as possible.</h6>
+    <h6>Please complete and submit this form and We will reply you as soon as possible.</h6>
 
             <div class="form-group">
-        <input type="text" id="fname"  placeholder="Enter name..">
-                <input type="email"  id="email" placeholder="Enter email">
-
-        <!--<input type="text" id="email" name="email" placeholder="Your Email..">-->
+        <input type="text" id="fname" class="form-control" placeholder="Name">
             </div>
+                    <div class="form-group">
+                <input type="email"  id="email" class="form-control" placeholder="Email">
+                    </div>
+
+
             <div class="form-group">
 
                 <input type="text" class="form-control" id="fname" placeholder="Subject">
             </div>
 
+
             <div class="form-group">
-        <textarea id="subject"  placeholder="Message" style="height:170px"></textarea>
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-default" style="width: 125px; height: 40px"><h5><b>SUBMIT</b></h5></button>
+                </div>
 
     </div>
-    </div>
+        </div>
+        </div>
+
 
 </form>
 </div>
