@@ -14,7 +14,7 @@ var questions = [{
     correctAnswer : 2
 },{
         question : "founder of google ",
-        choices : [ "select",
+        choices : [ 
             "Larry Page and Sergey Brin",
             "Larry Page",
             "Sergey Brin",
