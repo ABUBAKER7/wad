@@ -48,9 +48,21 @@ displayCurrentQuestion();
 document.getElementById("quiz-message").style.display = 'none';
 function displayNext() {
     /*Write your code here */
-    displayCurrentQuestion();
-    if(currentQuestion>=4){
-        displayScore();
+    if(currentQuestion<=4){
+        var x=document.querySelector("input[type=radio ]:checked");
+        if(x==null)
+        {
+            var mess=document.getElementById("quiz-message");
+            mess.style.display="inline";
+            mess.innerText='please select an answer';
+            var ChoiceListid=document.getElementById("choice-list");
+            ChoiceListid.innerHTML='';
+        }
+        else if (currentQuestion<=4){
+            if(x.id==questions[currentQuestion].correctAnswer)
+            {
+                correctAnswers++;
+            }
     }
     if(document.getElementById("next-btn")) {
         if(currentQuestion==5)
@@ -61,11 +73,26 @@ function displayNext() {
 
         }
         currentQuestion++;
-        displayCurrentQuestion();
+
+    }
+        if(currentQuestion!=5) {
+            displayCurrentQuestion();
+        }
+        else
+        {
+            displayScore();
+            var mess=document.getElementById("quiz-message");
+            mess.style.display="none";
+            currentQuestion++;
+            var Next = document.getElementById("next-btn");
+            Next.innerText='Reset';
+        }
+    }
+    else {
+        resetQuiz();
     }
 
 }
-
 function displayCurrentQuestion() {
     /*Write your code here */
     document.getElementById("question").innerText = questions[currentQuestion].question;
@@ -75,10 +102,7 @@ function displayCurrentQuestion() {
         document.getElementById("choice-list").innerHTML += '<li><input type="radio" name="q">'+questions[currentQuestion].choices[a]+'</li>';
 
     }
-    if(document.querySelector("input[name='q']:checked")==null)
-    {
 
-    }
 }
 function resetQuiz() {
     currentQuestion = 0;
