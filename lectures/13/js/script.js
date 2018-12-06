@@ -13,21 +13,21 @@ var questions = [{
         "None of the above"],
     correctAnswer : 2
 },{
-        question : "founder of google ",
-        choices : [ 
-            "Larry Page and Sergey Brin",
-            "Larry Page",
-            "Sergey Brin",
+    question : "founder of google ",
+    choices : [
+        "Larry Page and Sergey Brin",
+        "Larry Page",
+        "Sergey Brin",
         "None of above"],
-        correctAnswer : 1
-    }
+    correctAnswer : 1
+}
     ,{
         question : "html stands for ",
         choices : [ "select",
             "Hyper Text Language",
             "Hper TExt Language",
-             "Hyper Text Markup Language",
-        "None of above"],
+            "Hyper Text Markup Language",
+            "None of above"],
         correctAnswer : 3
     },
     {
@@ -39,7 +39,7 @@ var questions = [{
         correctAnswer : 1
     }
 
-    ];
+];
 
 var currentQuestion = 0;
 var correctAnswers = 0;
@@ -63,18 +63,18 @@ function displayNext() {
             {
                 correctAnswers++;
             }
-    }
-    if(document.getElementById("next-btn")) {
-        if(currentQuestion==5)
-        {
-            document.getElementById("result").innerText="your score is  =" + correctAnswers;
+        }
+        if(document.getElementById("next-btn")) {
+            if(currentQuestion==5)
+            {
+                document.getElementById("result").innerText="your score is  =" + correctAnswers;
 
-            document.getElementById("quiz-message").innerText="play again  =";
+                document.getElementById("quiz-message").innerText="play again  =";
+
+            }
+            currentQuestion++;
 
         }
-        currentQuestion++;
-
-    }
         if(currentQuestion!=5) {
             displayCurrentQuestion();
         }
