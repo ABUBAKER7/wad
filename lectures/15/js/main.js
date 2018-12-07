@@ -1,6 +1,6 @@
 var info = {
     title : "ABUBAKER",
-    balance : 500000,
+    balance : 5000000,
     currency : "PKR",
     IBAN : "PKN0095837421"
 };
